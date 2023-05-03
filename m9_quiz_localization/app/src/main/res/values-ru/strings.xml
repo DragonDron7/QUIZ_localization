@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Опрос по курсу Android</string>
+    <string name="btnStart_name">Начать</string>
+    <string name="btnBack_name">Назад</string>
+    <string name="btnSend_name">Отправить</string>
+    <string name="start_mess">Начать опрос?</string>
+    <string name="end_mess">Ваш результат:</string>
+    <string name="btnRestart">Начать заново</string>
+    <string name="fragment_quiz_name">Опрос </string>
+    <string name="fragment_results_name">Результаты </string>
+    <string name="choose_the_date_dialog_title">Выберите свою дату рождения </string>
+    <string name="text_your_date_birth">Укажите дату своего рождения: </string>
+    <string name="text_toast_quiz_no_answer">Пожалуйста,ответьте на все вопросы!</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android course survey</string>
+    <string name="btnStart_name">Start</string>
+    <string name="btnBack_name">Back</string>
+    <string name="btnSend_name">Send</string>
+    <string name="start_mess">Start a Quiz?</string>
+    <string name="end_mess">Your result:</string>
+    <string name="btnRestart">Start over</string>
+    <string name="fragment_quiz_name">Quiz </string>
+    <string name="fragment_results_name">Results </string>
+    <string name="choose_the_date_dialog_title">Choose your birthday</string>
+    <string name="date_default_format" translatable="false">--/----/----</string>
+    <string name="text_your_date_birth">Enter your date of birth:</string>
+    <string name="text_toast_quiz_no_answer">Please answer all questions!</string>
+</resources>

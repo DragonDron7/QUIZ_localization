@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.fragments.MainFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="160dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:text="@string/text_your_date_birth"
+        android:textColor="#228E3A"
+        app:layout_constraintEnd_toEndOf="@+id/start_mess"
+        app:layout_constraintStart_toStartOf="@+id/start_mess"
+        app:layout_constraintTop_toBottomOf="@+id/start_mess" />
+
+    <EditText
+        android:id="@+id/editViewDate"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/border"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:drawableEnd="@drawable/calendar"
+        android:focusable="false"
+        android:gravity="center"
+        android:hint="@string/date_default_format"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/start_mess"
+        style="@style/customText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="16dp"
+        android:text="@string/start_mess"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewStart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewStart"
+        android:layout_width="285dp"
+        android:layout_height="250dp"
+        android:layout_margin="16dp"
+        android:src="@drawable/welcome_picture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.116"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496" />
+
+    <Button
+        android:id="@+id/btnStart"
+        style="@style/MyButtonStyle"
+        android:layout_width="200dp"
+
+        android:text="@string/btnStart_name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editViewDate"
+        app:layout_constraintStart_toStartOf="@+id/editViewDate" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
